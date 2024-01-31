@@ -1,0 +1,70 @@
+.texto {
+  color: #193BD1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn-1 {
+  animation: fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 2s;
+  /* Ajusta el retraso según tus necesidades */
+}
+
+.animate-fadeIn-2 {
+  animation: fadeIn 0.5s ease-in-out forwards;
+  animation-delay: 2s;
+  /* Ajusta el retraso según tus necesidades */
+}
+
+
+/* .field {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.field label {
+  display: block;
+  font-size: 16px;
+  color: black;
+}
+
+.field input {
+  display: block;
+  min-width: 250px;
+  font-weight: semibold;
+  line-height: 1.5;
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  border: 1px solid #193BD1;
+}
+
+.field textarea {
+  padding: 5px;
+  color: black;
+  border: 1px solid #193BD1;
+}
+
+input[type="submit"] {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color: #193BD1;
+}
+
+input[type="submit"]:hover {
+  background-color: #4460AA;
+} */
