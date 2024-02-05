@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from "framer-motion"
 import Card from './Card'
-import Egg from "../../assets/certificados/EGG.png"
+
 import Skills from './Skills'
 export default function Educacion() {
   const educacion = [
