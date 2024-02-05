@@ -84,10 +84,11 @@ export default function SobreMi() {
         <>
 
             <motion.div
-                className='z-100 bg-black text-rose-500 probando flex flex-col justif pb-12 '
+                className='z-100 bg-black text-rose-500 probando flex flex-col'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -50 }}
+
             >
                 <div className='flex flex-col p-2 gap-2 ' >
                     <span className='text-xs font-light opacity-80 md:text-xl' >¡Hola!, mi nombre es :</span>
@@ -185,7 +186,7 @@ export default function SobreMi() {
                                 </Tooltip>
                                 <Tooltip title="Responsabilidad" >
                                     <IconButton>
-                                    <BsListCheck />
+                                        <BsListCheck />
                                     </IconButton>
                                 </Tooltip>
                                 <Tooltip title="Constancia" >
@@ -199,10 +200,30 @@ export default function SobreMi() {
                     </div>
                     <div className='md:flex  md:items-center md:justify-around mt-2 p-2 md:w-1/2 md:flex-col md:mt-12 md:ml-0 md:p-0' >
                         <motion.p className='md:text-xl ' initial={{ opacity: 0 }}
-                            animate={{ opacity: 1, color: "#ffffff", transition: { delay: 0.4, duration: 0.8 } }}>A los 22 años, me encuentro cursando la carrera de Analista Programador Universitario en la Universidad Nacional de Jujuy (UNJU) en Argentina.
-                            Además de mi formación académica, he participado en bootcamps y cursos de programación. En la actualidad, desempeño funciones en una agencia
-                            de programación especializada en la ejecución de proyectos adaptados a las necesidades específicas de los clientes. Mi enfoque se centra en el apasionante
-                            campo del Desarrollo Web, donde constantemente amplío mis conocimientos en esta área.
+                            animate={{ opacity: 1, color: "#ffffff", transition: { delay: 0.4, duration: 0.8 } }}>Tengo 22 años , estudiante de Analista Programador en la UNJU, Argentina. En paralelo realice distintos tipos de bootcamps y cursos para poder seguir ampliando mis conocimientos en este hermoso mundo del Desarrollo Web.
+                        </motion.p>
+                        <h2 className='text-center   text-xl text-blue-400 font-semibold m-4'>Experiencia: </h2>
+                        <motion.p className='md:text-xl ' initial={{ opacity: 0 }}
+                            animate={{ opacity: 1, color: "#ffffff", transition: { delay: 0.4, duration: 0.8 } }}>
+                            <ul className='flex flex-col gap-6'>
+                            Desarrollador Frontend | Genbyte Solutions (Consultora web) | Remoto | Octubre 2023 - Actualidad
+                                <li>
+                                    - Diseñé y desarrollé interfaces de usuario responsivas utilizando HTML, JavaScript y React.js, complementados con CSS y Tailwind CSS para los estilos.
+
+                                </li>
+                                <li>
+                                    - Colaboré estrechamente con diseñadores y desarrolladores backend para implementar y mejorar las funcionalidades de las aplicaciones web, utilizando el framework Next.js.
+
+                                </li>
+                                <li>
+                                    - Trabajé con código antiguo en proyectos ya existentes, optimizando el rendimiento de las aplicaciones web mediante técnicas de carga y renderizado eficientes.
+
+                                </li>
+                            </ul>
+
+
+
+
                         </motion.p>
                         <motion.div
                             initial={{ opacity: 0 }}
@@ -241,7 +262,7 @@ export default function SobreMi() {
                                 </Tooltip>
                                 <Tooltip title="Constancia" >
                                     <IconButton>
-                                        < FaPersonSwimming  className='md:text-3xl' />
+                                        < FaPersonSwimming className='md:text-3xl' />
                                     </IconButton>
                                 </Tooltip>
                             </div>
