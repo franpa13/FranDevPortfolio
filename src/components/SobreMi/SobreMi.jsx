@@ -84,7 +84,7 @@ export default function SobreMi() {
         <>
 
             <motion.div
-                className='z-100 bg-black text-rose-500 probando flex flex-col justif '
+                className='z-100 bg-black text-rose-500 probando flex flex-col justif pb-12 '
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -50 }}

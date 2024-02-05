@@ -24,17 +24,14 @@ const pages = [
     },
     {
         id: "/educacion",
-        text: 'Educacion'
+        text: 'Educacion/Skills'
     },
 
     {
         text: 'Proyectos',
         id: "/proyectos"
     },
-    {
-        text: "Skills",
-        id: "/skills"
-    }];
+   ];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {

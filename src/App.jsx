@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path='/' element={<SobreMi />}></Route>
         <Route path='/proyectos' element={<Proyects />}></Route>
-        <Route path='/skills' element={<Skills/>}></Route>
+ 
         <Route path='/educacion'element={<Educacion/>} ></Route>
         {/* <Route path='/navbar' element={<ResponsiveAppBar/>}></Route> */}
       </Routes>
