@@ -12,7 +12,7 @@ import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import img from "../../assets/ParedesFrancisco.png"
+import img from "/src/assets/ParedesFrancisco.png"
 import { GiBodyBalance } from "react-icons/gi";
 import { RiTeamLine } from "react-icons/ri";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -206,7 +206,7 @@ export default function SobreMi() {
                         <motion.p className='md:text-xl ' initial={{ opacity: 0 }}
                             animate={{ opacity: 1, color: "#ffffff", transition: { delay: 0.4, duration: 0.8 } }}>
                             <ul className='flex flex-col gap-6'>
-                            Desarrollador Frontend | Genbyte Solutions (Consultora web) | Remoto | Octubre 2023 - Actualidad
+                                Desarrollador Frontend | Genbyte Solutions (Consultora web) | Remoto | Octubre 2023 - Actualidad
                                 <li>
                                     - Diseñé y desarrollé interfaces de usuario responsivas utilizando HTML, JavaScript y React.js, complementados con CSS y Tailwind CSS para los estilos.
 

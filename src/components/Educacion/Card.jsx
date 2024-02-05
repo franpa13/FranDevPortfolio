@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import digitalHouse from "/PORTFOLIO REACT/public/certificados/DIGITAL HOUSE.png"
-import Oracle from "/PORTFOLIO REACT/public/certificados/ORACLE NEXT EDUCATION.png"
-import ArgPrograma from "/PORTFOLIO REACT/public/certificados/ARG PROGRAMA.png"
-import Yopuedo from "/PORTFOLIO REACT/public/certificados/YO PUEDO PROGRAMAR.png"
-import Taller from "/PORTFOLIO REACT/public/certificados/TALLER DON WEB.png"
-import Reactutn from "/PORTFOLIO REACT/public/certificados/REACT UTN.png"
-import Egg from "/PORTFOLIO REACT/public/certificados/EGG.png"
+import digitalHouse from "/src/assets/certificados/DIGITAL HOUSE.png"
+import Oracle from "/src/assets/certificados/ORACLE NEXT EDUCATION.png"
+import ArgPrograma from "/src/assets/certificados/ARG PROGRAMA.png"
+import Yopuedo from "/src/assets/certificados/YO PUEDO PROGRAMAR.png"
+import Taller from "/src/assets/certificados/TALLER DON WEB.png"
+import Reactutn from "/src/assets/certificados/REACT UTN.png"
+import Egg from "/src/assets/certificados/EGG.png"
 import { Button } from '@mui/material'
 // import { Card,CardMedia,Typography,CardContent } from '@mui/material'
 export default function Card({ nombre, fecha, url, index }) {

@@ -1,15 +1,15 @@
 import * as React from 'react';
 
 import Button from '@mui/material/Button';
-import Todolist from "/PORTFOLIO REACT/public/proyectos/ToDoList.png"
-import appeperia from "/PORTFOLIO REACT/public/proyectos/apepperia.png"
-import Minialura from "/PORTFOLIO REACT/public/proyectos/miniAlura.png"
-import Pokedex from "/PORTFOLIO REACT/public/proyectos/pokedex.png"
-import MercadoLibre from "/PORTFOLIO REACT/public/proyectos/mercadoLibre.png"
-import Calcu from "/PORTFOLIO REACT/public/proyectos/calculadora.png"
-import Verdu from "/PORTFOLIO REACT/public/proyectos/verduleria.png"
-import LoginNext from "/PORTFOLIO REACT/public/proyectos/proyectoLogin.png"
-import Encriptador from "/PORTFOLIO REACT/public/proyectos/encriptador.png"
+import Todolist from "/src/assets/proyectos/toDoList.png"
+import appeperia from "/src/assets/proyectos/apepperia.png"
+import Minialura from "/src/assets/proyectos/miniAlura.png"
+import Pokedex from "/src/assets/proyectos/pokedex.png"
+import MercadoLibre from "/src/assets/proyectos/mercadoLibre.png"
+import Calcu from "/src/assets/proyectos/calculadora.png"
+import Verdu from "/src/assets/proyectos/verduleria.png"
+import LoginNext from "/src/assets/proyectos//proyectoLogin.png"
+import Encriptador from "/src/assets/proyectos/encriptador.png"
 
 import { motion } from 'framer-motion';
 

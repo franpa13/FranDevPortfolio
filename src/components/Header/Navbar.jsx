@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import "./Navbar.css"
 
 import AdbIcon from '@mui/icons-material/Adb';
-import img from "../../assets/ParedesFrancisco.png"
+import img from "/src/assets/ParedesFrancisco.png"
 import { Link } from 'react-router-dom';
 const pages = [
     {
