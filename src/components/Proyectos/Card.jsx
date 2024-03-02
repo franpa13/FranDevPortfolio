@@ -73,7 +73,7 @@ export default function MediaCard({ title, description, url, index }) {
             <img src={LoginNext} alt="" />
           )}
         </div>
-        <div className='md:w-3/5 flex flex-col items-end justify-between gap-6'>
+        <div className='md:w-3/5 flex flex-col items-startjustify-between gap-6'>
           <div className='flex flex-col gap-2'>
 
             <h2 className='md:text-2xl text-sm font-medium'>{title}</h2>
