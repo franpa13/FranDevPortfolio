@@ -6,13 +6,13 @@ import emailjs from '@emailjs/browser';
 import 'react-toastify/dist/ReactToastify.css';
 import Alert from '@mui/material/Alert';
 import { BsListCheck } from "react-icons/bs";
-
+import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
 import { FaPersonSwimming } from "react-icons/fa6";
 import Box from '@mui/material/Box';
 import Modal from '@mui/material/Modal';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import img from "/src/assets/ParedesFrancisco.png"
+import img from "/src/assets/ParedesFrancisco.jpeg"
 import { GiBodyBalance } from "react-icons/gi";
 import { RiTeamLine } from "react-icons/ri";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -81,10 +81,10 @@ export default function SobreMi() {
     }, []);
 
     return (
-        <>
+        <div id='inicio'>
 
             <motion.div
-                className='z-100 bg-black text-rose-500 probando flex flex-col'
+                className='z-100 mt-16 bg-black text-rose-500 probando flex flex-col'
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -50 }}
@@ -272,6 +272,6 @@ export default function SobreMi() {
                 </div>
             </motion.div>
 
-        </>
+        </div>
     )
 }

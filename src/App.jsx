@@ -13,15 +13,21 @@ function App() {
 
   return (
     <div className='main' >
-     <ResponsiveAppBar></ResponsiveAppBar>
-      <Routes>
+      <ResponsiveAppBar></ResponsiveAppBar>
+      
+
+        <SobreMi></SobreMi>
+        <Proyects></Proyects>
+        <Educacion></Educacion>
+      
+      {/* <Routes>
         <Route path='/' element={<SobreMi />}></Route>
         <Route path='/proyectos' element={<Proyects />}></Route>
  
         <Route path='/educacion'element={<Educacion/>} ></Route>
-        {/* <Route path='/navbar' element={<ResponsiveAppBar/>}></Route> */}
-      </Routes>
-      
+
+      </Routes> */}
+
     </div>
   )
 }

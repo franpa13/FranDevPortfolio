@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 import "./Navbar.css"
 
 import AdbIcon from '@mui/icons-material/Adb';
-import img from "/src/assets/ParedesFrancisco.png"
+import img from "/src/assets/ParedesFrancisco.jpeg"
 import { Link } from 'react-router-dom';
 const pages = [
     {
@@ -31,7 +31,7 @@ const pages = [
         text: 'Proyectos',
         id: "/proyectos"
     },
-   ];
+];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
@@ -54,90 +54,122 @@ function ResponsiveAppBar() {
     };
 
     return (
-        
-            <AppBar position="static"  >
-                <div maxWidth="xl" className='pr-0 pl-0 px-0'>
-                    <Toolbar className='flex justify-center items-center p-0 pr-0 pl-0 ' disableGutters >
+
+        <AppBar pposition="static" className="fixed top-0 w-full z-50" >
+            <div maxWidth="xl" className='pr-0 pl-0 px-0'>
+                <Toolbar className='flex justify-center items-center p-0 pr-0 pl-0 ' disableGutters >
 
 
-                        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                            <IconButton
-                                size="large"
-                                aria-label="account of current user"
-                                aria-controls="menu-appbar"
-                                aria-haspopup="true"
-                                onClick={handleOpenNavMenu}
-                                color="inherit"
-                            >
-                                <MenuIcon />
-                            </IconButton>
-                            <Menu
-                                id="menu-appbar"
-                                anchorEl={anchorElNav}
-                                anchorOrigin={{
-                                    vertical: 'bottom',
-                                    horizontal: 'left',
-                                }}
-                                keepMounted
-                                transformOrigin={{
-                                    vertical: 'top',
-                                    horizontal: 'left',
-                                }}
-                                open={Boolean(anchorElNav)}
-                                onClose={handleCloseNavMenu}
-                                sx={{
-                                    display: { xs: 'block', md: 'none' },
-                                }}
-                            >
-                                {pages.map((page, i) => (
-                                    <Link key={i} to={page.id}>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                        <IconButton
+                            size="large"
+                            aria-label="account of current user"
+                            aria-controls="menu-appbar"
+                            aria-haspopup="true"
+                            onClick={handleOpenNavMenu}
+                            color="inherit"
+                        >
+                            <MenuIcon />
+                        </IconButton>
+                        <Menu
+                            id="menu-appbar"
+                            anchorEl={anchorElNav}
+                            anchorOrigin={{
+                                vertical: 'bottom',
+                                horizontal: 'left',
+                            }}
+                            keepMounted
+                            transformOrigin={{
+                                vertical: 'top',
+                                horizontal: 'left',
+                            }}
+                            open={Boolean(anchorElNav)}
+                            onClose={handleCloseNavMenu}
+                            sx={{
+                                display: { xs: 'block', md: 'none' },
+                            }}
+                        >
+                            <div>
 
-                                        <MenuItem onClick={handleCloseNavMenu}>
-                                            <Typography textAlign="center" className='text-black  w-full  ' >{page.text}</Typography>
-                                        </MenuItem>
-                                    </Link>
-                                ))}
-                            </Menu>
-                        </Box>
+                                <a href="#inicio">
+
+                                    <MenuItem onClick={handleCloseNavMenu}>
+                                        <Typography textAlign="center" className='text-black  w-full  ' >Inicio</Typography>
+                                    </MenuItem>
+                                </a>
+                                <a href="#proyectos">
+
+                                    <MenuItem onClick={handleCloseNavMenu}>
+                                        <Typography textAlign="center" className='text-black  w-full  ' >Proyectos</Typography>
+                                    </MenuItem>
+                                </a>
+                                <a href="#educacion">
+
+                                    <MenuItem onClick={handleCloseNavMenu}>
+                                        <Typography textAlign="center" className='text-black  w-full  ' >Educacion/Skills</Typography>
+                                    </MenuItem>
+                                </a>
+                            </div>
+
+                        </Menu>
+                    </Box>
 
 
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                            {pages.map((page, i) => (
-
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                       
+                            <a href={`#inicio`}>
                                 <Button
-                                    key={i}
+                                   
                                     onClick={handleCloseNavMenu}
 
                                     sx={{ my: 2, mx: 2, fontWeight: "bold", textAlign: "center", backgroundColor: "#193BD2", color: 'white', display: 'block' }}
                                 >
-                                    <Link to={page.id} >
-                                        {page.text}
-                                    </Link>
+                                    Inicio
                                 </Button>
+                            </a>
+                            <a href={`#proyectos`}>
+                                <Button
+                                 
+                                    onClick={handleCloseNavMenu}
 
-                            ))}
-                        </Box>
+                                    sx={{ my: 2, mx: 2, fontWeight: "bold", textAlign: "center", backgroundColor: "#193BD2", color: 'white', display: 'block' }}
+                                >
+                                    Proyectos
+                                </Button>
+                            </a>
+                            <a href={`#educacion`}>
+                                <Button
+                                   
+                                    onClick={handleCloseNavMenu}
 
-                        <Box className="flex w-full justify-around md:w-auto md:justify-normal  md:gap-12 " sx={{ flexGrow: 0 }}>
-                            <Redes  ></Redes>
-                            <Tooltip title="!Hola¡" >
+                                    sx={{ my: 2, mx: 2, fontWeight: "bold", textAlign: "center", backgroundColor: "#193BD2", color: 'white', display: 'block' }}
+                                >
+                                    Educacion/Skills
+                                </Button>
+                            </a>
+                      
+                    </Box>
 
-                                <Avatar
-                                    variant='rounded'
-                                    alt="Remy Sharp"
-                                    src={img}
-                                    sx={{ width: "50px", height: "50px",padding:"3px"}}
+                    <Box className="flex w-full justify-around md:w-auto md:justify-normal  md:gap-12 " sx={{ flexGrow: 0 }}>
+                        <Redes  ></Redes>
+                        <Tooltip title="!Hola¡" >
+
+                            <Avatar
+                                variant='rounded'
+                                alt="Remy Sharp"
+                                src={img}
+                                sx={{ width: "50px", height: "50px", padding: "3px" }}
 
 
 
-                                />
+                            />
 
-                            </Tooltip>
+                        </Tooltip>
 
-                        </Box>
-                    </Toolbar>
-                </div>
-            </AppBar >
+                    </Box>
+                </Toolbar>
+            </div>
+        </AppBar >
 
     );
 }

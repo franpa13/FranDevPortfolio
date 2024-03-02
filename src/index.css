@@ -6,3 +6,12 @@
 
   color: white;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+/* Añade animación de desplazamiento */
+html {
+  scroll-behavior: smooth;
+  transition: scroll-behavior 1s ease;
+}
