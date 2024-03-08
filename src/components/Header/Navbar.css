@@ -1,4 +1,3 @@
-
 .css-19r6kue-MuiContainer-root {
     width: 100%;
     margin-left: auto;
@@ -6,9 +5,14 @@
     margin-right: auto;
     display: block;
     padding-left: 0px;
-    padding-right:0px;
+    padding-right: 0px;
 }
-.probandoDos{
+
+.probandoDos {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.bar {
+    background-color: #0d275f;
 }

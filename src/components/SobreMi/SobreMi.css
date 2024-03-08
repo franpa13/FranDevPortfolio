@@ -11,7 +11,9 @@
     opacity: 1;
   }
 }
-
+.parabg{
+  background-color: #0f172a;
+}
 .animate-fadeIn-1 {
   animation: fadeIn 0.5s ease-in-out forwards;
   animation-delay: 2s;

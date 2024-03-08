@@ -9,6 +9,7 @@ import { FaReact } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
 import { FaGithub } from "react-icons/fa";
+import { GiSkills } from "react-icons/gi";
 import { FaGitAlt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
@@ -21,8 +22,8 @@ export default function Skills() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, color: "#ffffff", transition: { delay: 0.2, duration: 0.2 } }}
-        className=''>
-        <h1 className='text-center text-xl font-semibold md:text-2xl md:m-4'>Skills</h1>
+        className='flex flex-col w-full mt-12 items-center gap-8'>
+        <h1 className="text-lg text-center border-b-2 w-1/2 md:w-1/4 text-blue-500 border-blue-500 flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10"><GiSkills className='text-blue-500'/>Skills</h1>
         <div className='flex gap-4 justify-center  p-2 flex-wrap w-full md:gap-6 ' >
           <div className='w-1/4 flex flex-col gap-2 items-center justify-center md:w-1/5  '>
               <motion.div whileHover={{ scale: 1.3 }}>

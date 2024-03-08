@@ -55,8 +55,8 @@ function ResponsiveAppBar() {
 
     return (
 
-        <AppBar pposition="static" className="fixed top-0 w-full z-50" >
-            <div maxWidth="xl" className='pr-0 pl-0 px-0'>
+        <AppBar position="static" className="bar fixed top-0 w-full z-50 animate-slide-in-left" >
+            <div maxWidth="xl" className='pr-0 pl-0 px-0 bar'>
                 <Toolbar className='flex justify-center items-center p-0 pr-0 pl-0 ' disableGutters >
 
 
@@ -100,7 +100,7 @@ function ResponsiveAppBar() {
                                 <a href="#proyectos">
 
                                     <MenuItem onClick={handleCloseNavMenu}>
-                                        <Typography textAlign="center" className='text-black  w-full  ' >Proyectos</Typography>
+                                        <Typography textAlign="center" className='text-black  w-full   ' >Proyectos</Typography>
                                     </MenuItem>
                                 </a>
                                 <a href="#educacion">
@@ -116,38 +116,38 @@ function ResponsiveAppBar() {
 
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                       
-                            <a href={`#inicio`}>
-                                <Button
-                                   
-                                    onClick={handleCloseNavMenu}
 
-                                    sx={{ my: 2, mx: 2, fontWeight: "bold", textAlign: "center", backgroundColor: "#193BD2", color: 'white', display: 'block' }}
-                                >
-                                    Inicio
-                                </Button>
-                            </a>
-                            <a href={`#proyectos`}>
-                                <Button
-                                 
-                                    onClick={handleCloseNavMenu}
+                        <a href={`#inicio`}>
+                            <Button
 
-                                    sx={{ my: 2, mx: 2, fontWeight: "bold", textAlign: "center", backgroundColor: "#193BD2", color: 'white', display: 'block' }}
-                                >
-                                    Proyectos
-                                </Button>
-                            </a>
-                            <a href={`#educacion`}>
-                                <Button
-                                   
-                                    onClick={handleCloseNavMenu}
+                                onClick={handleCloseNavMenu}
 
-                                    sx={{ my: 2, mx: 2, fontWeight: "bold", textAlign: "center", backgroundColor: "#193BD2", color: 'white', display: 'block' }}
-                                >
-                                    Educacion/Skills
-                                </Button>
-                            </a>
-                      
+                                sx={{ my: 2, mx: 2, fontWeight: "bold" ,'&:hover': {backgroundColor:"#38bdf8", color:"#464545"},textAlign: "center",border:"1px solid #38bdf8", color: 'white', display: 'block' }}
+                            >
+                                Inicio
+                            </Button>
+                        </a>
+                        <a href={`#proyectos`}>
+                            <Button
+
+                                onClick={handleCloseNavMenu}
+
+                                sx={{ my: 2, mx: 2, fontWeight: "bold", '&:hover': {backgroundColor:"#38bdf8", color:"#464545"},textAlign: "center", border:"1px solid #38bdf8", color: 'white', display: 'block' }}
+                            >
+                                Proyectos
+                            </Button>
+                        </a>
+                        <a href={`#educacion`}>
+                            <Button
+
+                                onClick={handleCloseNavMenu}
+
+                                sx={{ my: 2, mx: 2, fontWeight: "bold", '&:hover': {backgroundColor:"#38bdf8", color:"#464545"},textAlign: "center" , border:"1px solid #38bdf8",color: 'white', display: 'block' }}
+                            >
+                                Educacion/Skills
+                            </Button>
+                        </a>
+
                     </Box>
 
                     <Box className="flex w-full justify-around md:w-auto md:justify-normal  md:gap-12 " sx={{ flexGrow: 0 }}>

@@ -20,7 +20,7 @@ const style = {
 export const ContactUs = () => {
 
     return (
-        <div>
+        <div className=''>
          
           <Modal
             keepMounted
@@ -28,6 +28,7 @@ export const ContactUs = () => {
             onClose={handleClose}
             aria-labelledby="keep-mounted-modal-title"
             aria-describedby="keep-mounted-modal-description"
+            className='animate-fade-in-up'
           >
             <Box sx={style}>
               <Typography id="keep-mounted-modal-title" variant="h6" component="h2">

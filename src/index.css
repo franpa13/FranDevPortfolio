@@ -15,3 +15,19 @@ html {
   scroll-behavior: smooth;
   transition: scroll-behavior 1s ease;
 }
+/* Estilo de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 8px;
+   /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilo del riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #0f172a; /* Color de fondo del riel */
+}
+
+/* Estilo del pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #3194be; /* Color del pulgar */
+  border-radius: 5px; /* Borde redondeado del pulgar */
+}

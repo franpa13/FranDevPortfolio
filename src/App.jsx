@@ -1,35 +1,30 @@
-import { useState } from 'react'
-import './App.css'
-import { Routes, Route } from 'react-router-dom'
-import { motion } from "framer-motion"
-import SobreMi from './components/SobreMi/SobreMi'
-import Proyects from './components/Proyectos/Proyects'
-import Educacion from './components/Educacion/Educacion'
-import Skills from './components/Skills/Skills'
-import ResponsiveAppBar from './components/Header/Navbar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { motion } from "framer-motion";
+import SobreMi from './components/SobreMi/SobreMi';
+import Proyects from './components/Proyectos/Proyects';
+import Educacion from './components/Educacion/Educacion';
+import ResponsiveAppBar from './components/Header/Navbar';
+import Allproyects from './pages/AllProyects/Allproyects';
 
 function App() {
-
-
   return (
-    <div className='main' >
-      <ResponsiveAppBar></ResponsiveAppBar>
-      
 
-        <SobreMi></SobreMi>
-        <Proyects></Proyects>
-        <Educacion></Educacion>
-      
-      {/* <Routes>
-        <Route path='/' element={<SobreMi />}></Route>
-        <Route path='/proyectos' element={<Proyects />}></Route>
- 
-        <Route path='/educacion'element={<Educacion/>} ></Route>
+    <div className='main'>
 
-      </Routes> */}
-
+      <Routes>
+        <Route path='/' element={
+          <div className=''>
+            <ResponsiveAppBar></ResponsiveAppBar>
+            <SobreMi />
+            <Proyects />
+            <Educacion />
+          </div>
+        } />
+        <Route path='/proyects' element={<Allproyects />} />
+      </Routes>
     </div>
-  )
+
+  );
 }
 
-export default App
+export default App;
