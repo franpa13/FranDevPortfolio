@@ -85,6 +85,7 @@ export default function Educacion() {
 
         </div>
       </motion.div>
+      <span className='parabg flex items-center justify-center text-gray-400 py-6'>2024 - Francisco Javier Paredes</span>
     </div>
   );
 }

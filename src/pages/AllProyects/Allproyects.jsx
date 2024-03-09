@@ -150,7 +150,7 @@ export default function Allproyects() {
 
                     )
                 })}
-                <span className='flex items-center justify-center text-gray-400 my-6'>2024 - Francisco Paredes</span>
+                <span className='flex items-center justify-center text-gray-400 my-6'>2024 - Francisco Javier Paredes</span>
             </section>
 
             {/* {proyectos.map((project, i) => {

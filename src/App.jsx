@@ -5,16 +5,17 @@ import Proyects from './components/Proyectos/Proyects';
 import Educacion from './components/Educacion/Educacion';
 import ResponsiveAppBar from './components/Header/Navbar';
 import Allproyects from './pages/AllProyects/Allproyects';
+import ScrollToTop from './components/ScrollTop/ScrollTop';
 
 function App() {
   return (
-
     <div className='main'>
 
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={
           <div className=''>
-            <ResponsiveAppBar></ResponsiveAppBar>
+            <ResponsiveAppBar />
             <SobreMi />
             <Proyects />
             <Educacion />
@@ -22,8 +23,8 @@ function App() {
         } />
         <Route path='/proyects' element={<Allproyects />} />
       </Routes>
-    </div>
 
+    </div>
   );
 }
 
