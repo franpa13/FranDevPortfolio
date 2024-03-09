@@ -23,7 +23,7 @@ export default function Skills() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, color: "#ffffff", transition: { delay: 0.2, duration: 0.2 } }}
         className='flex flex-col w-full mt-12 items-center gap-8'>
-        <h1 className="text-lg text-center border-b-2 w-1/2 md:w-1/4 text-blue-500 border-blue-500 flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10"><GiSkills className='text-blue-500'/>Skills</h1>
+        <h1 className="text-lg text-center border-b-2 w-1/2 md:w-1/4 color border-blue-500 flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10"><GiSkills className='text-blue-500'/>Skills</h1>
         <div className='flex gap-4 justify-center  p-2 flex-wrap w-full md:gap-6 ' >
           <div className='w-1/4 flex flex-col gap-2 items-center justify-center md:w-1/5  '>
               <motion.div whileHover={{ scale: 1.3 }}>

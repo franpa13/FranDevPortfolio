@@ -100,13 +100,13 @@ export default function Proyects() {
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
-                    className='text-lg text-center border-b-2 w-1/2 md:w-1/4 text-blue-500 border-blue-500 flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10'
+                    className='text-lg text-center border-b-2 w-1/2 md:w-1/4 border-b-blue-600 color flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10'
                 >
-                    <LiaProjectDiagramSolid className='text-blue-600' /> Proyectos
+                    <LiaProjectDiagramSolid className='' /> Proyectos
                 </motion.h1>
 
 
-                <div className='md:w-full flex flex-col md:justify-center items-center gap-6 px-1 md:px-24'>
+                <div className='md:w-full  flex flex-col md:justify-center items-center gap-6 px-1 md:px-24'>
 
                     {
                         proyectos.slice(0, 4).map((p, i) => {

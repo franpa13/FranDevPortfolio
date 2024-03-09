@@ -7,7 +7,7 @@ import { Tooltip, IconButton } from '@mui/material';
 import { FaInstagram } from "react-icons/fa";
 export default function Redes() {
     return (
-        <div className='flex justify-center  w-2/3  items-center md:gap-5'>
+        <div className='flex justify-end  w-2/3  items-center md:gap-5'>
 
             <Tooltip title="Mi Linkedin" className='text-red-600' >
                 <IconButton>
@@ -33,9 +33,9 @@ export default function Redes() {
 
 
 
-            <Tooltip title="ver cv">
+            <Tooltip title="Descargar cv">
                 <IconButton>
-                    <a target='_blank' href="https://drive.google.com/file/d/1FwroOIa6Pb2TaZW9ZC-Z8uu16OL2QpD5/view?usp=sharing">
+                    <a target='_blank' href="https://drive.google.com/file/d/1UT128KAgrJOEgkdW-9yFDb92SFJ65Y3o/view?usp=sharing">
                         <FaRegFilePdf className='text-2xl size-4 text-black md:size-6' />
                     </a>
                 </IconButton>
@@ -44,7 +44,7 @@ export default function Redes() {
 
             <Tooltip title="Mi Instagram">
                 <IconButton>
-                    <a  target='_blank' href="https://www.instagram.com/fran.paredess/">
+                    <a target='_blank' href="https://www.instagram.com/fran.paredess/">
 
                         <FaInstagram className='text-2xl size-4  text-black md:size-6' />
 

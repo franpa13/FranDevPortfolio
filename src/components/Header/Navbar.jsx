@@ -55,8 +55,8 @@ function ResponsiveAppBar() {
 
     return (
 
-        <AppBar position="static" className="bar fixed top-0 w-full z-50 animate-slide-in-left" >
-            <div maxWidth="xl" className='pr-0 pl-0 px-0 bar'>
+        <AppBar position="static" className="bar fixed top-0 w-full z-50 " >
+            <div maxWidth="xl" className='pr-0 pl-0 px-0 bar animate-blurred-fade-in'>
                 <Toolbar className='flex justify-center items-center p-0 pr-0 pl-0 ' disableGutters >
 
 
@@ -150,9 +150,9 @@ function ResponsiveAppBar() {
 
                     </Box>
 
-                    <Box className="flex w-full justify-around md:w-auto md:justify-normal  md:gap-12 " sx={{ flexGrow: 0 }}>
+                    <Box className="flex w-full justify-end md:w-auto md:justify-center  md:gap-12 " sx={{ flexGrow: 0 }}>
                         <Redes  ></Redes>
-                        <Tooltip title="!Hola¡" >
+                        {/* <Tooltip title="!Hola¡" >
 
                             <Avatar
                                 variant='rounded'
@@ -164,7 +164,7 @@ function ResponsiveAppBar() {
 
                             />
 
-                        </Tooltip>
+                        </Tooltip> */}
 
                     </Box>
                 </Toolbar>

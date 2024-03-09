@@ -40,7 +40,7 @@ export default function MediaCard({ title, description, url, index, github }) {
   }, []);
   return (
     <ScrollAnimation>
-      <div className='flex-col md:flex-row md:w-full rounded-sm flex gap-4 p-5 md:p-10 relative overflow-hidden transform transition-transform duration-300 hover:scale-95'>
+      <div className='flex-col shadow-lg md:flex-row md:w-full rounded-sm flex gap-4 p-2 md:p-10 relative overflow-hidden transform transition-transform duration-300 hover:scale-95'>
         <div className='md:w-2/5' >
 
           {index === 0 && (
@@ -85,7 +85,7 @@ export default function MediaCard({ title, description, url, index, github }) {
           <div className='flex flex-col gap-2'>
 
             <h2 className='md:text-2xl text-sm font-medium'>{title}</h2>
-            <p className='text-sm md:text-base'>{description}</p>
+            <p className='text-xs md:text-base'>{description}</p>
           </div>
           <div className='flex gap-2 justify-start items-center'>
 
@@ -99,7 +99,7 @@ export default function MediaCard({ title, description, url, index, github }) {
             </a>
           </div>
         </div>
-        <div className='linea flex justify-center'>
+        <div className='linea md:w-full w-1/2 flex justify-center'>
 
         </div>
       </div>

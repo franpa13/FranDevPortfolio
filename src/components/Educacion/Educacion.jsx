@@ -69,7 +69,7 @@ export default function Educacion() {
 
       >
         <Skills></Skills>
-        <h1 className="text-lg text-center border-b-2 w-3/4 md:w-1/4 gap-1 mt-12 text-blue-500 border-blue-500 flex justify-center items-center md:gap-4 font-semibold md:text-2xl md:pb-1 relative z-10"><MdSchool /> Formación académica </h1>
+        <h1 className="text-lg text-center border-b-2 w-3/4 md:w-1/4 gap-1 mt-12 color border-blue-500 flex justify-center items-center md:gap-4 font-semibold md:text-2xl md:pb-1 relative z-10"><MdSchool /> Formación académica </h1>
         <div className='flex flex-wrap gap-8 justify-center'>
 
           {educacion.map((educ, i) => (
