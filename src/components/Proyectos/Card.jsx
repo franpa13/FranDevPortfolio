@@ -16,6 +16,7 @@ import { Avatar } from '@mui/material';
 import LoginNext from "/src/assets/proyectos//proyectoLogin.png"
 import Encriptador from "/src/assets/proyectos/encriptador.png"
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
+import World from "/src/assets/proyectos/Word.png"
 import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
 import { CSSTransition } from 'react-transition-group';
 import React, { useState, useEffect } from 'react';
@@ -53,33 +54,10 @@ export default function MediaCard({ title, description, url, index, github }) {
             <img src={elRinconDelLibro} alt="" />
           )}
           {index === 3 && (
-            <img src={MercadoLibre} alt="" />
+            <img src={World} alt="" />
           )}
 
-          {index === 4 && (
-            <img src={Todolist} alt="" />
-          )}
-          {index === 5 && (
-            <img src={appeperia} alt="" />
-          )}
-          {index === 6 && (
-            <img src={Encriptador} alt="" />
-          )}
-          {index === 7 && (
-            <img src={Pokedex} alt="" />
-          )}
-          {index === 8 && (
-            <img src={Minialura} alt="" />
-          )}
-          {index === 9 && (
-            <img src={Calcu} alt="" />
-          )}
-          {index === 10 && (
-            <img src={Verdu} alt="" />
-          )}
-          {index === 11 && (
-            <img src={LoginNext} alt="" />
-          )}
+         
         </div>
         <div className='md:w-3/5 flex flex-col items-startjustify-between gap-6'>
           <div className='flex flex-col gap-2'>

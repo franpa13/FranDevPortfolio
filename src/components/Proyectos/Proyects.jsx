@@ -31,6 +31,12 @@ export default function Proyects() {
             github: "https://github.com/franpa13/sprintDigitalHouse"
         },
         {
+            title: "World Ranks",
+            desciption: "Proyecto en el cual trabaje con React + Tailwind css para los estilos, practicando el manejo y el filtro de datos , teniendo en cuenta la dimension de la informacion obtenida desde la api = https://restcountries.com/v3.1/all ",
+            url: "https://country-page-one.vercel.app/",
+            github: "https://github.com/franpa13/Country_page"
+        },
+        {
             title: "MERCADO LIBRE",
             desciption: "PROYECTO REALIZADO EN EL BOOTCAMP DE DIGITAL HOUSE, EL CUAL CONSISTIA EN REALIZAR UNA REPLICA DE MERCADO LIBRE",
             url: "https://mlibre.onrender.com/",

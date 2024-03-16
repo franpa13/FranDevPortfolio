@@ -19,6 +19,7 @@ import CoffeSoph from "/src/assets/proyectos/CoffeShop.png"
 import LoginNext from "/src/assets/proyectos//proyectoLogin.png"
 import Encriptador from "/src/assets/proyectos/encriptador.png"
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
+import World from "/src/assets/proyectos/Word.png"
 export default function Allproyects() {
     const proyectos = [
         {
@@ -41,6 +42,13 @@ export default function Allproyects() {
             url: "https://github.com/franpa13/sprintDigitalHouse",
             github: "https://github.com/franpa13/sprintDigitalHouse",
             img: elRinconDelLibro
+        },
+        {
+            title: "World Ranks",
+            desciption: "Proyecto en el cual trabaje con React + Tailwind css para los estilos, practicando el manejo y el filtro de datos , teniendo en cuenta la dimension de la informacion obtenida desde la api = https://restcountries.com/v3.1/all ",
+            url: "https://country-page-one.vercel.app/",
+            github: "https://github.com/franpa13/Country_page",
+            img: World
         },
         {
             title: "MERCADO LIBRE",
