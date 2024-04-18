@@ -35,7 +35,7 @@ export default function Redes() {
 
             <Tooltip title="Descargar cv">
                 <IconButton>
-                    <a target='_blank' href="https://drive.google.com/file/d/1UT128KAgrJOEgkdW-9yFDb92SFJ65Y3o/view?usp=sharing">
+                    <a target='_blank' href="https://drive.google.com/file/d/15ku32aBMj9x6AkYhr6cHCGYVBUC1gxJa/view?usp=sharing">
                         <FaRegFilePdf className='text-2xl size-4 text-black md:size-6' />
                     </a>
                 </IconButton>
