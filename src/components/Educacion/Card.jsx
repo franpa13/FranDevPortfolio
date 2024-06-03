@@ -14,7 +14,7 @@ import ScrollAnimation from '../ScrollAnimation/ScrollAnimation'
 // import { Card,CardMedia,Typography,CardContent } from '@mui/material'
 export default function Card({ nombre, fecha, url, index }) {
     return (
-        // <div className='justify-center items-center p-6'>
+     
         <motion.div whileHover={{ scale: 1.08 }} className='  md:w-1/5 flex flex-col  card p-2 rounded-md'>
             {index === 0 && (
                 <img src={digitalHouse} alt="" />
@@ -55,6 +55,6 @@ export default function Card({ nombre, fecha, url, index }) {
                 </motion.div>
             </ScrollAnimation >
         </motion.div>
-        // </div>
+     
     )
 }

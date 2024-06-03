@@ -13,6 +13,7 @@ import Calcu from "/src/assets/proyectos/calculadora.png"
 import Verdu from "/src/assets/proyectos/verduleria.png"
 import CoffeSoph from "/src/assets/proyectos/CoffeShop.png"
 import { Avatar } from '@mui/material';
+import githubSearch from "/src/assets/proyectos/girhubSearch.png"
 import LoginNext from "/src/assets/proyectos//proyectoLogin.png"
 import Encriptador from "/src/assets/proyectos/encriptador.png"
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
@@ -47,13 +48,16 @@ export default function MediaCard({ title, description, url, index, github }) {
           {index === 0 && (
             <img src={MendozaNews} alt="" />
           )}
-          {index === 1 && (
-            <img src={CoffeSoph} alt="" />
+            {index === 1 && (
+            <img src={githubSearch} alt="" />
           )}
           {index === 2 && (
-            <img src={elRinconDelLibro} alt="" />
+            <img src={CoffeSoph} alt="" />
           )}
           {index === 3 && (
+            <img src={elRinconDelLibro} alt="" />
+          )}
+          {index === 4&& (
             <img src={World} alt="" />
           )}
 
