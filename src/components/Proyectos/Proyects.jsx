@@ -12,104 +12,103 @@ export default function Proyects() {
     {
       title: "Mendoza News",
       desciption:
-        "Proyecto para un portal de noticias de la provincia de Mendoza,Argentina ,donde trabaje especificamente en la parte del front, consumiendo apis(mostrando,enviando y eliminando datos desde la parte del admin),y trabajando en hacer el sitio web responsive",
+        "Portal de noticias para la provincia de Mendoza, Argentina. Trabajé en el frontend, consumiendo APIs para mostrar, enviar y eliminar datos desde la sección de administración. También me aseguré de que el sitio web fuera responsive.",
       url: "https://github.com/franpa13/noticias",
       github: "https://github.com/franpa13/noticias",
     },
     {
       title: "Github Search",
       desciption:
-        "En este proyecto me ocupe basicamente de consumir los distintos endpoints de la api de Github para poder buscar el usuario que se quiera obtener",
+        "Aplicación para buscar usuarios en GitHub consumiendo distintos endpoints de la API de GitHub.",
       url: "https://profile-git-jade.vercel.app/",
       github: "https://github.com/franpa13/ProfileGit",
     },
     {
-      title: "Coffee Shop",
+      title: "School Web",
       desciption:
-        "Proyecto frontend donde muestro y filtro los distintos tipos de cafe que se ofrecen, trabajando con Vite + React y Tailwind css para los estilos y el responsive de la web ,api: https://raw.githubusercontent.com/devchallenges-io/web-project-ideas/main/front-end-projects/data/simple-coffee-listing-data.json ",
-      url: "https://coffe-tdf9.onrender.com/",
-      github: "https://github.com/franpa13/Coffe",
+        "Plataforma diseñada para optimizar la gestión de calificaciones, asistencias y otros aspectos del rendimiento estudiantil, mejorando la interacción entre docentes y alumnos.",
+      url: "https://genbytegestiondocente.software/",
+      github: "https://github.com/franpa13/schoolWeb",
     },
     {
       title: "El Rincon Del Libro",
       desciption:
-        "Proyecto final del bootcamp de Digital House, donde me encargue tanto del back(CRUD) como del front(trabajando con html,css y js junto con ejs) ",
+        "Proyecto final del bootcamp de Digital House, en el cual trabajé en el backend (CRUD) y en el frontend usando HTML, CSS, JS y EJS.",
       url: "https://github.com/franpa13/sprintDigitalHouse",
       github: "https://github.com/franpa13/sprintDigitalHouse",
     },
     {
       title: "World Ranks",
       desciption:
-        "Proyecto en el cual trabaje con React + Tailwind css para los estilos, practicando el manejo y el filtro de datos , teniendo en cuenta la dimension de la informacion obtenida desde la api = https://restcountries.com/v3.1/all ",
+        "Aplicación desarrollada con React y Tailwind CSS para practicar el manejo y filtrado de datos obtenidos de la API de países (https://restcountries.com/v3.1/all).",
       url: "https://country-page-one.vercel.app/",
       github: "https://github.com/franpa13/Country_page",
     },
     {
-      title: "MERCADO LIBRE",
+      title: "Mercado Libre",
       desciption:
-        "PROYECTO REALIZADO EN EL BOOTCAMP DE DIGITAL HOUSE, EL CUAL CONSISTIA EN REALIZAR UNA REPLICA DE MERCADO LIBRE",
+        "Replica de Mercado Libre realizada como proyecto en el bootcamp de Digital House.",
       url: "https://mlibre.onrender.com/",
       github: "https://github.com/franpa13/mercado__libre__2.0/",
     },
-
     {
-      title: "TO DO LIST",
+      title: "To Do List",
       desciption:
-        "PROYECTO FINAL DEL CURSO DESARROLLADOR WEB CON REACT JS(ARG PROGRAMA)",
+        "Proyecto final del curso de desarrollador web con React JS (ARG Programa).",
       url: "https://meek-blancmange-95f182.netlify.app/",
       github: "https://github.com/franpa13/ToDoList",
     },
     {
-      title: "APEPERIA ORACLE",
+      title: "Apperia Oracle",
       desciption:
-        "Proyecto del bootcamp ONE(ORACLE NEXT EDUCATION) donde hice la home de una pagina web",
+        "Proyecto del bootcamp ONE (Oracle Next Education) en el que desarrollé la página de inicio de un sitio web.",
       url: "https://franpa13.github.io/apperia__proyecto__oracle/",
       github: "https://github.com/franpa13/apperia__proyecto__oracle",
     },
     {
-      title: "ENCRIPTADOR",
+      title: "Encriptador",
       desciption:
-        "ENCRIPTADOR DE ORACIONES CREADO CON HTML,CSS , JS (CHALLENGE ONE)",
+        "Encriptador de oraciones creado con HTML, CSS y JavaScript (Challenge ONE).",
       url: "https://franpa13.github.io/encriptadorOracle/",
       github: "https://github.com/franpa13/encriptadorOracle",
     },
     {
-      title: "POKEDEX ",
+      title: "Pokedex",
       desciption:
-        "PRACTICANDO PETICIONES A LA API POKEAPI, DONDE MUESTRO TODA LA POKEDEX DE POKEMON",
+        "Aplicación para mostrar toda la Pokedex de Pokémon, practicando peticiones a la API PokeAPI.",
       url: "https://po-wmc2.onrender.com/",
       github: "https://github.com/franpa13/Pokedex",
     },
     {
-      title: "MINI ALURA",
+      title: "Mini Alura",
       desciption:
-        "Proyecto del bootcamp ONE(ORACLE NEXT EDUCATION) donde se usa flexbox y media querys",
+        "Proyecto del bootcamp ONE (Oracle Next Education) utilizando Flexbox y media queries.",
       url: "https://franpa13.github.io/flexbox__responsividad/",
       github: "https://github.com/franpa13/flexbox__responsividad",
     },
-
     {
-      title: "CALCULADORA",
+      title: "Calculadora",
       desciption:
-        "PROYECTO REALIZADO CON FIN DE ENTENDER DE MANERA CORRECTA EL DOM, TRABAJE CON HTML,CSS,JS",
+        "Proyecto para entender el DOM, desarrollado con HTML, CSS y JavaScript.",
       url: "https://calculadora-gtu1.onrender.com/",
       github: "https://github.com/franpa13/calculadora",
     },
     {
-      title: "VERDULERIA",
+      title: "Verduleria",
       desciption:
-        "PROYECTO REALIZADO EN EL BOOTCAMP DE DIGITAL HOUSE DONDE REALIZAMOS UNA WEB A UNA VERDULERIA",
+        "Proyecto del bootcamp de Digital House para desarrollar una web para una verdulería.",
       url: "https://monumental-starlight-dce362.netlify.app",
       github: "https://github.com/franpa13/verduleria",
     },
     {
-      title: "LOG IN",
+      title: "Log In",
       desciption:
-        "LOG IN REALIZADO EN NEXT JS CON SUS RESPECTIVAS VALIDACIONES , RESPONSIVO DONDE USE  TAILWIND CSS PARA LOS ESTILOS - USER : admin@gmail.com , PAASSWORD : 123456789",
+        "Sistema de inicio de sesión realizado en Next.js con validaciones y diseño responsive usando Tailwind CSS. Usuario: admin@gmail.com, Contraseña: 123456789.",
       url: "https://loginnext.onrender.com/",
       github: "https://github.com/franpa13/LoginNext",
     },
   ];
+  
   return (
     <div id="proyectos">
       <motion.div

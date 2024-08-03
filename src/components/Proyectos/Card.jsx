@@ -18,6 +18,7 @@ import LoginNext from "/src/assets/proyectos//proyectoLogin.png"
 import Encriptador from "/src/assets/proyectos/encriptador.png"
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
 import World from "/src/assets/proyectos/Word.png"
+import SchoolWeb from "/src/assets/proyectos/schoolweb.jpg"
 import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
 import { CSSTransition } from 'react-transition-group';
 import React, { useState, useEffect } from 'react';
@@ -52,7 +53,7 @@ export default function MediaCard({ title, description, url, index, github }) {
             <img src={githubSearch} alt="" />
           )}
           {index === 2 && (
-            <img src={CoffeSoph} alt="" />
+            <img src={SchoolWeb} alt="" />
           )}
           {index === 3 && (
             <img src={elRinconDelLibro} alt="" />
