@@ -18,7 +18,7 @@ import LoginNext from "/src/assets/proyectos//proyectoLogin.png"
 import Encriptador from "/src/assets/proyectos/encriptador.png"
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
 import World from "/src/assets/proyectos/Word.png"
-import SchoolWeb from "/src/assets/proyectos/schoolweb.jpg"
+import SchoolWeb from "/src/assets/proyectos/schoolweb.png"
 import ScrollAnimation from '../ScrollAnimation/ScrollAnimation';
 import { CSSTransition } from 'react-transition-group';
 import React, { useState, useEffect } from 'react';

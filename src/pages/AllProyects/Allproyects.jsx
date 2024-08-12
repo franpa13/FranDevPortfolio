@@ -18,7 +18,7 @@ import gitSearch from "/src/assets/proyectos/girhubSearch.png";
 import Verdu from "/src/assets/proyectos/verduleria.png";
 import CoffeSoph from "/src/assets/proyectos/CoffeShop.png";
 import LoginNext from "/src/assets/proyectos//proyectoLogin.png";
-import schoolWeb from "/src/assets/proyectos/schoolweb.jpg";
+import schoolWeb from "/src/assets/proyectos/schoolweb.png";
 import Encriptador from "/src/assets/proyectos/encriptador.png";
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png";
 import World from "/src/assets/proyectos/Word.png";
