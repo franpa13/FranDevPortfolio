@@ -136,14 +136,14 @@ export default function Allproyects() {
       github: "https://github.com/franpa13/verduleria",
       img: Verdu,
     },
-    {
-      title: "Log In",
-      desciption:
-        "Sistema de inicio de sesión realizado en Next.js con validaciones y diseño responsive usando Tailwind CSS. Usuario: admin@gmail.com, Contraseña: 123456789.",
-      url: "https://loginnext.onrender.com/",
-      github: "https://github.com/franpa13/LoginNext",
-      img: LoginNext,
-    },
+    // {
+    //   title: "Log In",
+    //   desciption:
+    //     "Sistema de inicio de sesión realizado en Next.js con validaciones y diseño responsive usando Tailwind CSS. Usuario: admin@gmail.com, Contraseña: 123456789.",
+    //   url: "https://loginnext.onrender.com/",
+    //   github: "https://github.com/franpa13/LoginNext",
+    //   img: LoginNext,
+    // },
   ];
   
   return (
