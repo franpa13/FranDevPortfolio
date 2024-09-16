@@ -33,9 +33,9 @@ export default function Redes() {
 
 
 
-            <Tooltip title="cv">
+            <Tooltip title="Mi cv">
                 <IconButton>
-                    <a target='_blank' href="https://drive.google.com/file/d/1XAi6PYAwNFY_7WDk0tXrtK_V1YgY4s5f/view?usp=sharing">
+                    <a target='_blank' href="https://drive.google.com/file/d/1xdukqewOL9g7dhh3S1cUGtdivrH9FaN1/view?usp=sharing">
                         <FaRegFilePdf className='text-2xl size-4 text-black md:size-6' />
                     </a>
                 </IconButton>

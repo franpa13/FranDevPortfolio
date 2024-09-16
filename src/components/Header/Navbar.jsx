@@ -24,7 +24,7 @@ const pages = [
   },
   {
     id: "/educacion",
-    text: "Educacion/Skills",
+    text: "Educacion",
   },
 
   {
@@ -96,7 +96,7 @@ function ResponsiveAppBar() {
                       textAlign="center"
                       className="text-black  w-full  "
                     >
-                      Inicio
+                      Sobre MI
                     </Typography>
                   </MenuItem>
                 </a>
@@ -116,7 +116,7 @@ function ResponsiveAppBar() {
                       textAlign="center"
                       className="text-black  w-full  "
                     >
-                      Educacion/Skills
+                      Educacion
                     </Typography>
                   </MenuItem>
                 </a>
@@ -124,36 +124,45 @@ function ResponsiveAppBar() {
             </Menu>
           </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex", gap:"8px" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", md: "flex", gap: "8px" },
+            }}
+          >
             <a href={`#inicio`}>
               <Button
-                size="small"
+                size="medium"
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
-                  "&:hover": { backgroundColor: "#38bdf8", color: "black" },
+                  "&:hover": { backgroundColor: "#38bdf8", color: "black",  borderBottom: "1px solid white" },
                   textAlign: "center",
-                  border: "1px solid #38bdf8",
+                  border: "none",
+                  borderBottom: "1px solid #38bdf8",
+                  borderRadius: "0px",
                   color: "white",
                   display: "block",
                 }}
               >
-                Inicio
+                Sobre mi
               </Button>
             </a>
             <a href={`#proyectos`}>
               <Button
-                size="small"
+                size="medium"
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
-                  "&:hover": { backgroundColor: "#38bdf8", color: "black" },
+                  "&:hover": { backgroundColor: "#38bdf8", color: "black",  borderBottom: "1px solid white" },
                   textAlign: "center",
-                  border: "1px solid #38bdf8",
+                  border: "none",
+                  borderBottom: "1px solid #38bdf8",
+                  borderRadius: "0px",
                   color: "white",
                   display: "block",
                 }}
@@ -163,20 +172,26 @@ function ResponsiveAppBar() {
             </a>
             <a href={`#educacion`}>
               <Button
-                size="small"
+                size="medium"
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
-                  "&:hover": { backgroundColor: "#38bdf8",color: "black"},
+                  "&:hover": {
+                    backgroundColor: "#38bdf8",
+                    color: "black",
+                    borderBottom: "1px solid white",
+                  },
                   textAlign: "center",
-                  border: "1px solid #38bdf8",
+                  border: "none",
+                  borderBottom: "1px solid #38bdf8",
+                  borderRadius: "0px",
                   color: "white",
                   display: "block",
                 }}
               >
-                Educacion/Skills
+                Educacion
               </Button>
             </a>
           </Box>
@@ -186,19 +201,6 @@ function ResponsiveAppBar() {
             sx={{ flexGrow: 0 }}
           >
             <Redes></Redes>
-            {/* <Tooltip title="!Hola¡" >
-
-                            <Avatar
-                                variant='rounded'
-                                alt="Remy Sharp"
-                                src={img}
-                                sx={{ width: "50px", height: "50px", padding: "3px" }}
-
-
-
-                            />
-
-                        </Tooltip> */}
           </Box>
         </Toolbar>
       </div>

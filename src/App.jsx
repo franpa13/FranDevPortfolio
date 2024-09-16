@@ -9,7 +9,7 @@ import ScrollToTop from './components/ScrollTop/ScrollTop';
 
 function App() {
   return (
-    <div className='main'>
+    <div className='main animate-fade-in'>
 
       <ScrollToTop />
       <Routes>
