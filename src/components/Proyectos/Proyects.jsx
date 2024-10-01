@@ -17,6 +17,13 @@ export default function Proyects() {
       github: "https://github.com/franpa13/noticias",
     },
     {
+      title: "Cafetería Rimberio",
+      desciption:
+        "Landing Page para la Cafetería Rimberio con un diseño moderno y responsive. Cuenta con 3 secciones principales: Inicio, Contacto y Productos, donde se destaca la oferta de la cafetería y permite a los usuarios explorar el menú y obtener información de contacto fácilmente.",
+      url: "https://github.com/franpa13/landingPage",
+      github: "https://github.com/franpa13/landingPage",
+    },
+    {
       title: "Github Search",
       desciption:
         "Aplicación para buscar usuarios en GitHub consumiendo distintos endpoints de la API de GitHub.",
@@ -108,7 +115,7 @@ export default function Proyects() {
       github: "https://github.com/franpa13/LoginNext",
     },
   ];
-  
+
   return (
     <div id="proyectos">
       <motion.div

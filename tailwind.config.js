@@ -6,8 +6,9 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-
+  
   theme: {
+     
     extend: {
       transitionDuration: {
         '2000': '2000ms',

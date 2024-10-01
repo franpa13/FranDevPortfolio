@@ -16,6 +16,7 @@ import MendozaNews from "/src/assets/proyectos/MendozaNews.png";
 import Calcu from "/src/assets/proyectos/calculadora.png";
 import gitSearch from "/src/assets/proyectos/girhubSearch.png";
 import Verdu from "/src/assets/proyectos/verduleria.png";
+import rimberio from "/src/assets/proyectos/rimberio.png"
 import CoffeSoph from "/src/assets/proyectos/CoffeShop.png";
 import LoginNext from "/src/assets/proyectos//proyectoLogin.png";
 import schoolWeb from "/src/assets/proyectos/schoolweb.png";
@@ -31,6 +32,14 @@ export default function Allproyects() {
       url: "https://github.com/franpa13/noticias",
       github: "https://github.com/franpa13/noticias",
       img: MendozaNews,
+    },
+    {
+      title: "Cafetería Rimberio",
+      desciption:
+        "Landing Page para la Cafetería Rimberio con un diseño moderno y responsive. Cuenta con 3 secciones principales: Inicio, Contacto y Productos, donde se destaca la oferta de la cafetería y permite a los usuarios explorar el menú y obtener información de contacto fácilmente.",
+      url: "https://github.com/franpa13/landingPage",
+      github: "https://github.com/franpa13/landingPage",
+      img: rimberio 
     },
     {
       title: "Github Search",

@@ -7,50 +7,35 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import "./Navbar.css";
 
-import AdbIcon from "@mui/icons-material/Adb";
-import img from "/src/assets/ParedesFrancisco.jpeg";
-import { Link } from "react-router-dom";
 const pages = [
   {
-    id: "/",
+    href: "#inicio",
     text: "Sobre mi",
   },
   {
-    id: "/educacion",
-    text: "Educacion",
+    href: "#proyectos",
+    text: "Proyectos",
   },
 
   {
-    text: "Proyectos",
-    id: "/proyectos",
+    href: "#educacion",
+    text: "Educacion",
   },
 ];
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
-  };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
-  };
-
-  const handleCloseUserMenu = () => {
-    setAnchorElUser(null);
   };
 
   return (
@@ -89,37 +74,21 @@ function ResponsiveAppBar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <div>
-                <a href="#inicio">
-                  <MenuItem onClick={handleCloseNavMenu}>
-                    <Typography
-                      textAlign="center"
-                      className="text-black  w-full  "
-                    >
-                      Sobre MI
-                    </Typography>
-                  </MenuItem>
-                </a>
-                <a href="#proyectos">
-                  <MenuItem onClick={handleCloseNavMenu}>
-                    <Typography
-                      textAlign="center"
-                      className="text-black  w-full   "
-                    >
-                      Proyectos
-                    </Typography>
-                  </MenuItem>
-                </a>
-                <a href="#educacion">
-                  <MenuItem onClick={handleCloseNavMenu}>
-                    <Typography
-                      textAlign="center"
-                      className="text-black  w-full  "
-                    >
-                      Educacion
-                    </Typography>
-                  </MenuItem>
-                </a>
+              <div className="">
+                {pages.map((page, index) => {
+                  return (
+                    <a key={index} href={page.href}>
+                      <MenuItem onClick={handleCloseNavMenu}>
+                        <Typography
+                          textAlign="center"
+                          className="text-black  w-full  "
+                        >
+                          {page.text}
+                        </Typography>
+                      </MenuItem>
+                    </a>
+                  );
+                })}
               </div>
             </Menu>
           </Box>
@@ -138,7 +107,11 @@ function ResponsiveAppBar() {
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
-                  "&:hover": { backgroundColor: "#38bdf8", color: "black",  borderBottom: "1px solid white" },
+                  "&:hover": {
+                    backgroundColor: "#38bdf8",
+                    color: "black",
+                    borderBottom: "1px solid white",
+                  },
                   textAlign: "center",
                   border: "none",
                   borderBottom: "1px solid #38bdf8",
@@ -158,7 +131,11 @@ function ResponsiveAppBar() {
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
-                  "&:hover": { backgroundColor: "#38bdf8", color: "black",  borderBottom: "1px solid white" },
+                  "&:hover": {
+                    backgroundColor: "#38bdf8",
+                    color: "black",
+                    borderBottom: "1px solid white",
+                  },
                   textAlign: "center",
                   border: "none",
                   borderBottom: "1px solid #38bdf8",

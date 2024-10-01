@@ -25,7 +25,7 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: 300,
   bgcolor: "#0d275f",
-  borderRadius: 3,
+  borderRadius:"15px" ,
   border: "none",
   boxShadow: 24,
   p: 2,
@@ -140,7 +140,7 @@ export default function SobreMi() {
             Frontend Developer
           </motion.p>
         </div>
-        <div className="md:flex  md:justify-center md:flex-row-reverse md:mt-10 ">
+        <div className="md:flex  md:justify-center md:flex-row-reverse md:mt-8 ">
           <div className="w-full  flex  flex-col justify-center items-center md:justify-end md:items-center md:w-full md:mt-0 md:mb-0">
             <div className="w-full md:flex md:justify-center md:items-start md:flex-row-reverse gap-36 md:gap-20">
               <div className="w-full md:w-1/4 flex flex-col justify-center items-center animate-fade-in-right md:gap-4">

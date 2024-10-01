@@ -9,6 +9,7 @@ import Minialura from "/src/assets/proyectos/miniAlura.png"
 import Pokedex from "/src/assets/proyectos/pokedex.png"
 import MercadoLibre from "/src/assets/proyectos/mercadoLibre.png"
 import MendozaNews from "/src/assets/proyectos/MendozaNews.png"
+import rimberio from "/src/assets/proyectos/rimberio.png"
 import Calcu from "/src/assets/proyectos/calculadora.png"
 import Verdu from "/src/assets/proyectos/verduleria.png"
 import CoffeSoph from "/src/assets/proyectos/CoffeShop.png"
@@ -50,7 +51,7 @@ export default function MediaCard({ title, description, url, index, github }) {
             <img src={MendozaNews} alt="" />
           )}
             {index === 1 && (
-            <img src={githubSearch} alt="" />
+            <img src={rimberio} alt="" />
           )}
           {index === 2 && (
             <img src={SchoolWeb} alt="" />
@@ -91,22 +92,3 @@ export default function MediaCard({ title, description, url, index, github }) {
 }
 
 
-
-{/* <motion.div id="target-element"  whileHover={{ scale: 1.08 }} className=' md:w-1/2 h-full flex flex-row  bg-blue-600 p-2 rounded-md'> */ }
-{/* <motion.div
-        initial={{ opacity: 0, x: -20 }}
-        animate={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1 }}
-
-        className='flex flex-col h-full justify-around items-start gap-2'>
-        <p
-
-          className='font-semibold text-sm mt-2' >{title}</p>
-        <span className='text-sm md:text-base'>{description}</span>
-        <a href={url} target='_blank' >
-          <button className="bg-blue-900 hover:bg-blue-700 text-sm text-white font-bold py-2 px-4 rounded">Ver Demo</button>
-
-        </a>
-
-      </motion.div> */}
-// </motion.div>

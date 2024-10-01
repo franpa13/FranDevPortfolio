@@ -35,7 +35,7 @@ export default function Skills() {
             },
           }}
         >
-          <FaHtml5  size={40}/>
+          <FaHtml5 size={40} />
         </Avatar>
       ),
       title: "HTML5",
@@ -77,7 +77,7 @@ export default function Skills() {
             },
           }}
         >
-          <BiLogoJavascript  size={40}/>
+          <BiLogoJavascript size={40} />
         </Avatar>
       ),
       title: "JAVASCRIPT",
@@ -98,7 +98,7 @@ export default function Skills() {
             },
           }}
         >
-          <FaReact size={40}/>
+          <FaReact size={40} />
         </Avatar>
       ),
 
@@ -120,7 +120,7 @@ export default function Skills() {
             },
           }}
         >
-          <RiNextjsLine size={40}/>
+          <RiNextjsLine size={40} />
         </Avatar>
       ),
 
@@ -164,7 +164,7 @@ export default function Skills() {
             },
           }}
         >
-          <SiTailwindcss size={40}/>
+          <SiTailwindcss size={40} />
         </Avatar>
       ),
 
@@ -186,7 +186,7 @@ export default function Skills() {
             },
           }}
         >
-          <FaGitAlt size={40}/>
+          <FaGitAlt size={40} />
         </Avatar>
       ),
 
@@ -208,7 +208,7 @@ export default function Skills() {
             },
           }}
         >
-          <FaGithub size={40}/>
+          <FaGithub size={40} />
         </Avatar>
       ),
 
@@ -236,6 +236,7 @@ export default function Skills() {
       title: "NODE JS",
     },
   ];
+
   return (
     <ScrollAnimation>
       <motion.div
@@ -245,7 +246,7 @@ export default function Skills() {
           color: "#ffffff",
           transition: { delay: 0.2, duration: 0.2 },
         }}
-        className="flex flex-col w-full mt-12 md:mt-20 md:mb-14 items-center gap-8"
+        className="flex flex-col w-full mt-12 md:mt-[90px] md:mb-14 items-center gap-8"
       >
         <h1 className="text-lg text-center border-b-2 w-1/2 md:w-1/4 color border-blue-500 flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10">
           <GiSkills className="text-blue-500" />
@@ -253,8 +254,13 @@ export default function Skills() {
         </h1>
         <div className="flex gap-4 justify-center  p-1 flex-wrap w-full md:gap-3 ">
           {skills.map((skill, i) => {
+
+
             return (
-              <div className="w-1/4 flex flex-col gap-2 items-center justify-center md:w-1/6 md:mb-3 ">
+              <div
+                key={i}
+                className="w-1/4 flex flex-col gap-2 items-center justify-center md:w-1/6 md:mb-3 "
+              >
                 <motion.div whileHover={{ scale: 1.1 }}>
                   <ScrollAnimation>{skill.icon}</ScrollAnimation>
                 </motion.div>
@@ -271,7 +277,6 @@ export default function Skills() {
             );
           })}
         </div>
-   
       </motion.div>
     </ScrollAnimation>
   );
