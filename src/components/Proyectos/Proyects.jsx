@@ -25,7 +25,7 @@ export default function Proyects() {
       title: "Cafetería Rimberio",
       desciption:
         "Landing Page para la Cafetería Rimberio con un diseño moderno y responsive. Cuenta con 3 secciones principales: Inicio, Contacto y Productos, donde se destaca la oferta de la cafetería y permite a los usuarios explorar el menú y obtener información de contacto fácilmente.",
-      url: "https://landing-page-mzafzaqhz-franpa13s-projects.vercel.app/",
+      url: "https://landing-page-smoky-rho.vercel.app/",
       github: "https://github.com/franpa13/landingPage",
       img:rimberio , 
     },
