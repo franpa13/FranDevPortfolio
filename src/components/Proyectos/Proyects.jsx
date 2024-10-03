@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { Button } from "@mui/material";
 import { FaCodeBranch } from "react-icons/fa";
-
+import MendozaNews from "/src/assets/proyectos/MendozaNews.png"
+import rimberio from "/src/assets/proyectos/rimberio.png"
+import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
+import World from "/src/assets/proyectos/Word.png"
+import SchoolWeb from "/src/assets/proyectos/schoolweb.png"
 import React from "react";
 import MediaCard from "./Card";
 
@@ -15,6 +19,7 @@ export default function Proyects() {
         "Portal de noticias para la provincia de Mendoza, Argentina. Trabajé en el frontend, consumiendo APIs para mostrar, enviar y eliminar datos desde la sección de administración. También me aseguré de que el sitio web fuera responsive.",
       url: "https://github.com/franpa13/noticias",
       github: "https://github.com/franpa13/noticias",
+      img:MendozaNews ,
     },
     {
       title: "Cafetería Rimberio",
@@ -22,13 +27,7 @@ export default function Proyects() {
         "Landing Page para la Cafetería Rimberio con un diseño moderno y responsive. Cuenta con 3 secciones principales: Inicio, Contacto y Productos, donde se destaca la oferta de la cafetería y permite a los usuarios explorar el menú y obtener información de contacto fácilmente.",
       url: "https://github.com/franpa13/landingPage",
       github: "https://github.com/franpa13/landingPage",
-    },
-    {
-      title: "Github Search",
-      desciption:
-        "Aplicación para buscar usuarios en GitHub consumiendo distintos endpoints de la API de GitHub.",
-      url: "https://profile-git-jade.vercel.app/",
-      github: "https://github.com/franpa13/ProfileGit",
+      img:rimberio , 
     },
     {
       title: "School Web",
@@ -36,6 +35,7 @@ export default function Proyects() {
         "Plataforma diseñada para optimizar la gestión de calificaciones, asistencias y otros aspectos del rendimiento estudiantil, mejorando la interacción entre docentes y alumnos.",
       url: "https://genbytegestiondocente.software/",
       github: "https://github.com/franpa13/schoolWeb",
+      img:SchoolWeb ,
     },
     {
       title: "El Rincon Del Libro",
@@ -43,6 +43,7 @@ export default function Proyects() {
         "Proyecto final del bootcamp de Digital House, en el cual trabajé en el backend (CRUD) y en el frontend usando HTML, CSS, JS y EJS.",
       url: "https://github.com/franpa13/sprintDigitalHouse",
       github: "https://github.com/franpa13/sprintDigitalHouse",
+      img:elRinconDelLibro
     },
     {
       title: "World Ranks",
@@ -50,6 +51,15 @@ export default function Proyects() {
         "Aplicación desarrollada con React y Tailwind CSS para practicar el manejo y filtrado de datos obtenidos de la API de países (https://restcountries.com/v3.1/all).",
       url: "https://country-page-one.vercel.app/",
       github: "https://github.com/franpa13/Country_page",
+      img:World
+    },
+    {
+      title: "Github Search",
+      desciption:
+        "Aplicación para buscar usuarios en GitHub consumiendo distintos endpoints de la API de GitHub.",
+      url: "https://profile-git-jade.vercel.app/",
+      github: "https://github.com/franpa13/ProfileGit",
+      
     },
     {
       title: "Mercado Libre",
@@ -144,6 +154,7 @@ export default function Proyects() {
                 title={p.title}
                 description={p.desciption}
                 url={p.url}
+                img={p.img}
               />
             );
           })}

@@ -26,7 +26,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 
-export default function MediaCard({ title, description, url, index, github }) {
+export default function MediaCard({ title, description, url, index, github, img }) {
   const [isVisible, setIsVisible] = useState(false);
   useEffect(() => {
     function handleScroll() {
@@ -46,7 +46,7 @@ export default function MediaCard({ title, description, url, index, github }) {
     <ScrollAnimation>
       <div className='flex-col shadow-lg md:flex-row md:w-full rounded-sm flex gap-4 p-2 md:p-10 relative overflow-hidden transform transition-transform duration-300 hover:scale-95'>
         <div className='md:w-2/5' >
-
+{/* 
           {index === 0 && (
             <img src={MendozaNews} alt="" />
           )}
@@ -61,8 +61,8 @@ export default function MediaCard({ title, description, url, index, github }) {
           )}
           {index === 4&& (
             <img src={World} alt="" />
-          )}
-
+          )} */}
+<img src={img} alt={title} />
          
         </div>
         <div className='md:w-3/5 flex flex-col items-startjustify-between gap-6'>
