@@ -3,23 +3,32 @@ import { Link } from "react-router-dom";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
 import { Button } from "@mui/material";
 import { FaCodeBranch } from "react-icons/fa";
-import MendozaNews from "/src/assets/proyectos/MendozaNews.png"
-import rimberio from "/src/assets/proyectos/rimberio.png"
-import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png"
-import World from "/src/assets/proyectos/Word.png"
-import SchoolWeb from "/src/assets/proyectos/schoolweb.png"
+import MendozaNews from "/src/assets/proyectos/MendozaNews.png";
+import rimberio from "/src/assets/proyectos/rimberio.png";
+import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png";
+import World from "/src/assets/proyectos/Word.png";
+import SchoolWeb from "/src/assets/proyectos/schoolweb.png";
 import React from "react";
+import Progressus from "/src/assets/proyectos/Progressus.png";
 import MediaCard from "./Card";
 
 export default function Proyects() {
   const proyectos = [
+    {
+      title: "Progressus Center Gym",
+      desciption:
+        "Aplicacion web que se encarga de la gestion de los clientes de la academia Progressus Center Gym, donde me encargue de la parte del frontend utilizando React Js y Tailwind CSS.",
+      url: "https://progressus-client.vercel.app/",
+      // github: "https://github.com/franpa13/noticias",
+      img: Progressus,
+    },
     {
       title: "Mendoza News",
       desciption:
         "Portal de noticias para la provincia de Mendoza, Argentina. Trabajé en el frontend, consumiendo APIs para mostrar, enviar y eliminar datos desde la sección de administración. También me aseguré de que el sitio web fuera responsive.",
       url: "https://github.com/franpa13/noticias",
       github: "https://github.com/franpa13/noticias",
-      img:MendozaNews ,
+      img: MendozaNews,
     },
     {
       title: "Cafetería Rimberio",
@@ -27,7 +36,7 @@ export default function Proyects() {
         "Landing Page para la Cafetería Rimberio con un diseño moderno y responsive. Cuenta con 3 secciones principales: Inicio, Contacto y Productos, donde se destaca la oferta de la cafetería y permite a los usuarios explorar el menú y obtener información de contacto fácilmente.",
       url: "https://landing-page-smoky-rho.vercel.app/",
       github: "https://github.com/franpa13/landingPage",
-      img:rimberio , 
+      img: rimberio,
     },
     {
       title: "School Web",
@@ -35,7 +44,7 @@ export default function Proyects() {
         "Plataforma diseñada para optimizar la gestión de calificaciones, asistencias y otros aspectos del rendimiento estudiantil, mejorando la interacción entre docentes y alumnos.",
       url: "https://genbytegestiondocente.software/",
       github: "https://github.com/franpa13/schoolWeb",
-      img:SchoolWeb ,
+      img: SchoolWeb,
     },
     {
       title: "El Rincon Del Libro",
@@ -43,7 +52,7 @@ export default function Proyects() {
         "Proyecto final del bootcamp de Digital House, en el cual trabajé en el backend (CRUD) y en el frontend usando HTML, CSS, JS y EJS.",
       url: "https://github.com/franpa13/sprintDigitalHouse",
       github: "https://github.com/franpa13/sprintDigitalHouse",
-      img:elRinconDelLibro
+      img: elRinconDelLibro,
     },
     {
       title: "World Ranks",
@@ -51,7 +60,7 @@ export default function Proyects() {
         "Aplicación desarrollada con React y Tailwind CSS para practicar el manejo y filtrado de datos obtenidos de la API de países (https://restcountries.com/v3.1/all).",
       url: "https://country-page-one.vercel.app/",
       github: "https://github.com/franpa13/Country_page",
-      img:World
+      img: World,
     },
     {
       title: "Github Search",
@@ -59,7 +68,6 @@ export default function Proyects() {
         "Aplicación para buscar usuarios en GitHub consumiendo distintos endpoints de la API de GitHub.",
       url: "https://profile-git-jade.vercel.app/",
       github: "https://github.com/franpa13/ProfileGit",
-      
     },
     {
       title: "Mercado Libre",
@@ -141,7 +149,7 @@ export default function Proyects() {
           transition={{ duration: 1 }}
           className="text-lg text-center border-b-2 w-1/2 md:w-1/4 border-b-blue-600 color flex justify-center items-center gap-4 font-semibold md:text-2xl md:pb-1 relative z-10"
         >
-          <LiaProjectDiagramSolid className="" /> Proyectos
+          <LiaProjectDiagramSolid className="" /> Trabajos realizados
         </motion.h1>
 
         <div className="md:w-full  flex flex-col md:justify-center items-center gap-6 px-1 md:px-24">

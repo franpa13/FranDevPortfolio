@@ -25,7 +25,7 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: 300,
   bgcolor: "#0d275f",
-  borderRadius:"15px" ,
+  borderRadius: "15px",
   border: "none",
   boxShadow: 24,
   p: 2,
@@ -59,6 +59,7 @@ export default function SobreMi() {
   // const notify = () => toast.success("Mensaje enviado correctamente, respondere a la brevedad... saludos !!");
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsLoading(true); // Start loading
 
     emailjs
       .sendForm(
@@ -77,8 +78,12 @@ export default function SobreMi() {
         },
         (error) => {
           console.log(error.text);
+          toast.error("Error al enviar el mensaje");
         }
-      );
+      )
+      .finally(() => {
+        setIsLoading(false); // Stop loading regardless of result
+      });
   };
 
   useEffect(() => {
@@ -99,7 +104,7 @@ export default function SobreMi() {
       text: "Actualmente estoy cursando la carrera de Analista Programador Universitario en la Universidad Nacional de Jujuy, complementando mi formación académica con un aprendizaje autodidacta en nuevas tecnologías y desarrollo de software.",
     },
   ];
-
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <div id="inicio" className="parabg">
       <motion.div
@@ -137,7 +142,7 @@ export default function SobreMi() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { delay: 0.6, duration: 0.8 } }}
           >
-            Frontend Developer
+            Desarrollador Web
           </motion.p>
         </div>
         <div className="md:flex  md:justify-center md:flex-row-reverse md:mt-8 ">
@@ -153,7 +158,7 @@ export default function SobreMi() {
                     transition: { delay: 0.6, duration: 0.8 },
                   }}
                 >
-                  Frontend Developer
+                  Desarrollador Web
                 </motion.p>
                 {/* <div class="absolute inline bottom-0  bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-1 w-full  blur-sm"></div> */}
                 {/* </div> */}
@@ -238,8 +243,8 @@ export default function SobreMi() {
                 />
               </label>
 
-              <Button variant="contained" type="submit">
-                Enviar
+              <Button sx={{ color: "white" }} variant="contained" type="submit">
+                {isLoading ? "Enviando..." : "Enviar"}
               </Button>
             </form>
           </Box>
