@@ -23,7 +23,7 @@ import schoolWeb from "/src/assets/proyectos/schoolweb.png";
 import Encriptador from "/src/assets/proyectos/encriptador.png";
 import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png";
 import World from "/src/assets/proyectos/Word.png";
-import progressusImage from "/src/assets/proyectos/Progressus.png";
+import progressusImage from "/src/assets/proyectos/progressus.png";
 export default function Allproyects() {
   const proyectos = [
     {

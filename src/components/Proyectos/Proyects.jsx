@@ -9,7 +9,7 @@ import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png";
 import World from "/src/assets/proyectos/Word.png";
 import SchoolWeb from "/src/assets/proyectos/schoolweb.png";
 import React from "react";
-import progressusImage from "/src/assets/proyectos/Progressus.png";
+import progressusImage from "/src/assets/proyectos/progressus.png";
 import MediaCard from "./Card";
 
 export default function Proyects() {
