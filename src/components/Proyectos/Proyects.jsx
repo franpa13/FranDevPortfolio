@@ -9,7 +9,7 @@ import elRinconDelLibro from "/src/assets/proyectos/elRinconDelLibro.png";
 import World from "/src/assets/proyectos/Word.png";
 import SchoolWeb from "/src/assets/proyectos/schoolweb.png";
 import React from "react";
-import Progressus from "/src/assets/proyectos/Progressus.png";
+import progressusImage from "/src/assets/proyectos/Progressus.png";
 import MediaCard from "./Card";
 
 export default function Proyects() {
@@ -20,7 +20,7 @@ export default function Proyects() {
         "Aplicacion web que se encarga de la gestion de los clientes de la academia Progressus Center Gym, donde me encargue de la parte del frontend utilizando React Js y Tailwind CSS.",
       url: "https://progressus-client.vercel.app/",
       // github: "https://github.com/franpa13/noticias",
-      img: Progressus,
+      img: progressusImage,
     },
     {
       title: "Mendoza News",
