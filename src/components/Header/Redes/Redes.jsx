@@ -32,7 +32,7 @@ export default function Redes() {
         <IconButton>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1806sYhAUsdQzTMxiPRskXeQt9f-UmsrW/view?usp=sharing"
+            href="https://drive.google.com/file/d/1AuRsbV4GOW8RjBhwnH7LRbgdvSHtTYEJ/view?usp=sharing"
           >
             <FaRegFilePdf className="text-2xl size-4 text-black md:size-6" />
           </a>
