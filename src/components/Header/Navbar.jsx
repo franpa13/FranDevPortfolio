@@ -101,7 +101,7 @@ function ResponsiveAppBar() {
           >
             <a href={`#inicio`}>
               <Button
-                size="medium"
+                size="small"
                 onClick={handleCloseNavMenu}
                 sx={{
                   my: 2,
@@ -125,9 +125,9 @@ function ResponsiveAppBar() {
             </a>
             <a href={`#proyectos`}>
               <Button
-                size="medium"
+                size="small"
                 onClick={handleCloseNavMenu}
-                sx={{
+                  sx={{
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
@@ -149,9 +149,9 @@ function ResponsiveAppBar() {
             </a>
             <a href={`#educacion`}>
               <Button
-                size="medium"
+                size="small"
                 onClick={handleCloseNavMenu}
-                sx={{
+                   sx={{
                   my: 2,
                   mx: 2,
                   fontWeight: "bold",
